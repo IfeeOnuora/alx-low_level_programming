@@ -16,7 +16,7 @@ int main(void)
 		if (c != 0)
 		{
 			putchar(',');
-			putchar(' ');
+			putchar(', ');
 		}
 		c++;
 	}
