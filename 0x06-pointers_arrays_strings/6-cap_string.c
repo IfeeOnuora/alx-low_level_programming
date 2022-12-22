@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+#include <stdio.>
 /**
  * cap_string - capitalizes all words in a string
  * @s: string
@@ -20,7 +20,7 @@ char *cap_string(char *s)
 			{
 				for (j = 0; j <= 12; j++)
 				{
-					for (a[j] == *(s + i - 1))
+					if (a[j] == *(s + i - 1))
 						*(s + i) -= 'a' - 'A';
 				}
 			}
@@ -29,3 +29,4 @@ char *cap_string(char *s)
 	}
 	return (s);
 }
+
