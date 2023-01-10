@@ -5,33 +5,20 @@
  * @c: char
  * Return: pointer
  */
-
 char *create_array(unsigned int size, char c)
 {
-char *buffer;
-unsigned int position;
+	char *array;
+	unsigned int i;
 
-if (size == 0)
-{
-return (NULL);
-}
+	if (size == 0)
+		return (NULL);
 
-/*Define values with malloc*/
-buffer = (char *) malloc(size * sizeof(C));
+	array = (char *)malloc(sizeof(char) * size);
+	if (array == NULL)
+		return (NULL);
 
-if (buffe == 0)
-{
-return (NULL);
-}
+	for (i = 0; i < size; i++)
+		array[i] = c;
 
-else
-{
-position = 0;
-while (position < size) /*while for array*/
-{
-*(buffer + position) = c;
-position++;
-}
-
-return (buffer);
+	return (array);
 }
