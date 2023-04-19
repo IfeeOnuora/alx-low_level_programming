@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcat - a function that concatenates two strings without the strcat function
+ * _strcat - a function that concatenates two strings without the strcat()
  *
  * @dest: the string to receive another string
  * @src: the string to be appended
@@ -11,6 +11,7 @@
 char *_strcat(char *dest, char *src)
 {
 	int x, y;
+	
 	x = 0;
 	while (dest[x] != 0)
 	{
