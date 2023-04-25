@@ -3,7 +3,7 @@
  * _strncat - a function that concatenates strings
  * without using strncat
  *
- * @dest: the destination 
+ * @dest: the destination
  * @src: the source
  * @n: the number needed to append
  *
