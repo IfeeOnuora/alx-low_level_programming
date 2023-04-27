@@ -13,7 +13,7 @@ int main(void)
 	int x;
 
 	printf("%lu, ", a);
-	for (x = 0; x < number; x++)
+	for (x = 1; x < number; x++)
 	{
 		printf("%lu, ", b);
 		sum = a + b;
