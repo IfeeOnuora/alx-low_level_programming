@@ -15,10 +15,17 @@ int main(void)
 	printf("%lu, ", a);
 	for (x = 1; x < number; x++)
 	{
-		printf("%lu, ", b);
-		sum = a + b;
-		a = b;
-		b = sum;
+		if (x == 49)
+		{
+			printf("%lu", b);
+		}
+		else
+		{
+			printf("%lu, ", b);
+			sum = a + b;
+			a = b;
+			b = sum;
+		}
 	}
 	printf("\n");
 	return (0);
