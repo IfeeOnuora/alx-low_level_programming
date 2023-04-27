@@ -12,10 +12,10 @@ int main(void)
 	int number = 50;
 	int x;
 
-	printf("%d, ", a);
+	printf("%lu, ", a);
 	for (x = 0; x < number; x++)
 	{
-		printf("%d, ", b);
+		printf("%lu, ", b);
 		sum = a + b;
 		a = b;
 		b = sum;
