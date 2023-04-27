@@ -6,18 +6,19 @@
  */
 int main(void)
 {
-	int a = 0;
-	int b = 1;
-	int result = 0;
+	int a = 1;
+	int b = 2;
+	int sum = 0;
 	int number = 50;
-	int i;
+	int x;
 
-	for (i = 0; i <= number; i++)
+	printf("%d, ", a);
+	for (x = 0; x < number; x++)
 	{
-		result = a + b;
+		printf("%d, ", b);
+		sum = a + b;
 		a = b;
-		b = result;
-		printf("%d, \n", result);
+		b = sum;
 	}
 	printf("\n");
 	return (0);
