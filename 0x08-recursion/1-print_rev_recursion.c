@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _print_rev_recursion - a function that prints a function 
+ * _print_rev_recursion - a function that prints a function
  * in reverse using recursion, floowed by a new line
  *
  * @s: the parameter to be passed to the function
